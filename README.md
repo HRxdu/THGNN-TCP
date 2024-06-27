@@ -8,4 +8,5 @@ Download the original and the dealt dataset from https://drive.google.com/drive/
 
 ### Preproccess
 
-### Train
+### Training
+python train.py
