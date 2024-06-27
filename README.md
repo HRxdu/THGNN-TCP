@@ -9,4 +9,6 @@ Download the original and the dealt dataset from https://drive.google.com/drive/
 ### Preproccess
 
 ### Training
-'<python train.py>'
+```python
+python train.py
+```
