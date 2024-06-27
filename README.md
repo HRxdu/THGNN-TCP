@@ -15,7 +15,8 @@ The framework takes into account the co-occurrence relationship, semantic distan
 ## Usage
 Original dataset:
 * 1-10000.xlsx
-* 10001-13517.xlsx  
+* 10001-13517.xlsx
+
 Download the original and the dealt dataset from https://drive.google.com/drive/folders/1CkHuzyNrmjgx0JZVm6QvQiwGdEkCzHUK?usp=drive_link
 
 ### Training
