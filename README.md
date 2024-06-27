@@ -4,10 +4,10 @@ The framework takes into account the co-occurrence relationship, semantic distan
 ## Requirement
 * python 3.8.5
 * pytorch==1.12.1+cu116
-* dgl
+* dgl==1.0.1+cu116
 * scipy==1.10.1
 * pandas==1.5.3
-* networkx
+* networkx==2.5
 * numpy==1.20.3
 * sklearn
 
