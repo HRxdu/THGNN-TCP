@@ -5,3 +5,7 @@ The framework takes into account the co-occurrence relationship, semantic distan
 
 ## Usage
 Download the original and the dealt dataset from https://drive.google.com/drive/folders/1SxTgT-J0D1rn05tTKxWBANYbbOQ2y_cH?usp=drive_link
+
+### Preproccess
+
+### Train
