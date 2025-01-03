@@ -34,11 +34,11 @@ parser.add_argument('--patience', type=int, default=10, help='early stop')
 
 parser.add_argument('--feature_dim', type=int, default=768, help='特征向量维度')
 parser.add_argument('--embedding_dim', type=int, default=128, help='嵌入向量维度')
-parser.add_argument('--hidden_dim', type=int, default=32, help='隐向量维度', choices=[16, 32, 64, 128, 256]) # best=128
-parser.add_argument('--output_dim', type=int, default=64, help='输出向量维度', choices=[16, 32, 64, 128, 256]) # best=64
+parser.add_argument('--hidden_dim', type=int, default=128, help='隐向量维度', choices=[16, 32, 64, 128, 256]) # best=128
+parser.add_argument('--output_dim', type=int, default=128, help='输出向量维度', choices=[16, 32, 64, 128, 256]) # best=128
 parser.add_argument('--dropout_rate', type=float, default=0.5, help='dropout概率')
-parser.add_argument('--num_heads', type=int, default=4, help='多头注意力机制', choices=[4, 6, 8, 12, 16]) # best=8
-parser.add_argument('--num_logits_heads', type=int, default=4, help='talking-heads', choices=[4, 6, 8, 12, 16])
+parser.add_argument('--num_heads', type=int, default=8, help='多头注意力机制', choices=[4, 6, 8, 12, 16]) # best=8
+parser.add_argument('--num_logits_heads', type=int, default=8, help='talking-heads', choices=[4, 6, 8, 12, 16])
 
 parser.add_argument('--num_ipc', type=int, default=graph.num_nodes(ntype='ipc'), help='ipc节点数')
 parser.add_argument('--num_patent', type=int, default=graph.num_nodes(ntype='patent'), help='patent节点数')
