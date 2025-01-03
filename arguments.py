@@ -30,7 +30,7 @@ parser.add_argument('--device', default=torch.device('cuda:0'), help='训练设�
 parser.add_argument('--num_epochs', type=int, default=50, help='训练轮次')
 parser.add_argument('--batch_size', type=int, default=128, help='批大小')
 parser.add_argument('--lr', type=float, default=2e-5, help='学习率')
-parser.add_argument('--patience', type=int, default=5, help='early stop')
+parser.add_argument('--patience', type=int, default=10, help='early stop')
 
 parser.add_argument('--feature_dim', type=int, default=768, help='特征向量维度')
 parser.add_argument('--embedding_dim', type=int, default=128, help='嵌入向量维度')
